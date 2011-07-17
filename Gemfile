@@ -13,6 +13,11 @@ gem 'uglifier'
 
 gem 'jquery-rails'
 
+gem 'bson_ext'
+gem 'mongoid'
+
+gem 'devise'
+gem 'formtastic'
 # Use unicorn as the web server
 # gem 'unicorn'
 
