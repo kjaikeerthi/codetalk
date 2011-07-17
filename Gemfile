@@ -18,6 +18,9 @@ gem 'mongoid'
 
 gem 'devise'
 gem 'formtastic'
+
+gem 'haml-rails'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -27,3 +30,9 @@ gem 'formtastic'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+group :development do
+  gem 'thin'
+  gem 'hpricot'
+  gem 'ruby_parser'
+  gem 'ruby-debug-ide19', :require => false
+end
