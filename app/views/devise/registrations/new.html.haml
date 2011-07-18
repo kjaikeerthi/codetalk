@@ -20,5 +20,6 @@
   %p
     = f.hidden_field :github_login, :value => session[:git_login]
     = f.hidden_field :github_token, :value => session[:git_email]
+    = f.hidden_field :git, :value => session[:git]
   %p= f.submit "Sign up"
 = render :partial => "devise/shared/links"
