@@ -3,4 +3,5 @@ Codetalk::Application.routes.draw do
       match '/auth/:provider/callback' => 'registrations#new'
   end
   root :to => 'home#index'
+  match '/sh' => 'home#sh'
 end
